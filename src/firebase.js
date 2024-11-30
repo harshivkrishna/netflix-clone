@@ -31,7 +31,7 @@ const signup = async (name, email, password) => {
       authProvider: "local",
       email,
     });
-
+    
     console.log("User signed up and added to Firestore.");
   } catch (error) {
     console.error("Signup Error:", error.message);
